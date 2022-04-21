@@ -29,11 +29,24 @@ class _MyAppState extends State<MyApp> {
               "Result : ",
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
+            SizedBox(height: 20,
+            ),
             TextField(
               decoration: InputDecoration(
-                labelText: "Enter First Number"
+                labelText: "Enter First Number",
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(20)
+                )
               ),
-            )
+            ),
+            SizedBox(height: 20,
+            ),
+            TextField(
+              decoration: InputDecoration(
+                  labelText: "Enter Second Number",
+                  border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20))),
+            ),
           ],
         ),
       ),
