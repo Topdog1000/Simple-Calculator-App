@@ -1,16 +1,11 @@
-# simple_calc
+# Simple Calculator App 
 
-A simple calculator project
+### This project is a simple calculator that can do simple calculations with 2 numbers. It has input fields for both numbers and buttons for the calculations and returns the result of the calculation. 
 
-## Getting Started
+### Calculation operations include:
+### Addition (+)
+### Subtraction (-)
+### Multiplication (*)
+### Division (/)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Application was developed with Flutter as a classroom assignment project. 
