@@ -7,5 +7,6 @@
 ### Subtraction (-)
 ### Multiplication (*)
 ### Division (/)
+### Power (^)
 
 ### Application was developed with Flutter as a classroom assignment project. 
