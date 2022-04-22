@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'dart:math';
+
 main()
 {
   runApp(MaterialApp(
@@ -45,6 +47,13 @@ class _MyAppState extends State<MyApp> {
       num1 = int.parse(controller1.text);
       num2 = int.parse(controller2.text);
       result = num1! * num2!;
+    });
+  }
+  power(){
+    setState(() {
+      num1 = int.parse(controller1.text);
+      num2 = int.parse(controller2.text);
+      result = pow(num1!,num2!) as int?;
     });
   }
   @override
@@ -111,6 +120,17 @@ class _MyAppState extends State<MyApp> {
                   controller1.clear();
                   controller2.clear();
                 }, child: Text("Division")),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                ElevatedButton(onPressed: (){
+                  power();
+                  controller1.clear();
+                  controller2.clear();
+                }, child: Text("Power")),
+
               ],
             )
           ],
